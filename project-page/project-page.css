@@ -11639,14 +11639,14 @@ a:focus,button:focus {
 }
 
 .page-intro .container:before {
-    background-image: url('../hero-background.webp');
+    background-image: url('./hero-background.webp');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 .page-intro .container:after {
-    background-image: url('../gradient-green.webp');
+    background-image: url('./gradient-green.webp');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover
@@ -13469,7 +13469,7 @@ a:focus,button:focus {
 }
 
 .block-business:before {
-    background-image: url(../../../themes/fulcrum/assets/img/bg/gradient-green.webp);
+    background-image: url('./hero-background.webp');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover
