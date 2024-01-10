@@ -11575,14 +11575,14 @@ a:focus,button:focus {
 }
 
 .page-intro .container:before {
-    background-image: url('../images/hero-background.webp');
+    background-image: url('./images/hero-background.webp');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover
 }
 
 .page-intro .container:after {
-    background-image: url('../images/gradient-green.webp');
+    background-image: url('./images/gradient-green.webp');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover
