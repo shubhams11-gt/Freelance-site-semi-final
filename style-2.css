@@ -506,7 +506,7 @@ body{
     width: 1200px;
     left: -300px;
 
-    background-image: url('../images/gradient-green.webp');
+    background-image: url('./images/gradient-green.webp');
     background-repeat: no-repeat;
     z-index: -4;
     opacity: .7;

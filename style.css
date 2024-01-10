@@ -6312,7 +6312,7 @@ a:focus,button:focus {
 .button:before,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content .moove-gdpr-button-holder button.mgbutton:before {
     content: "";
     position: absolute;
-    background: url('../images/button-bg-1.svg') no-repeat;
+    background: url('./images/button-bg-1.svg') no-repeat;
     width: 350px;
     height: 230px;
     bottom: -100px;
@@ -6324,7 +6324,7 @@ a:focus,button:focus {
 .button:after,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content .moove-gdpr-button-holder button.mgbutton:after {
     content: "";
     position: absolute;
-    background: url('../images/button-bg-2.svg') no-repeat;
+    background: url('./images/button-bg-2.svg') no-repeat;
     width: 350px;
     height: 230px;
     top: -100px;
@@ -12859,7 +12859,7 @@ a:focus,button:focus {
 }
 
 .block-work-code:before {
-    background-image: url('../images/hero-background.webp');
+    background-image: url('./images/hero-background.webp');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover
@@ -13246,7 +13246,7 @@ a:focus,button:focus {
 }
 
 .block-steps:before {
-    background-image: url('../images/hero-background.webp');
+    background-image: url('./images/hero-background.webp');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
