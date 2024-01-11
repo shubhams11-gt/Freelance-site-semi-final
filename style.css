@@ -9772,7 +9772,13 @@ a:focus,button:focus {
 
 @media (max-width: 1023.98px) {
     .card-effect-05 .card .card-inner .card-image {
-        opacity:1
+        opacity:1;
+    }
+}
+
+@media (max-width: 1900px) {
+    .project-card .card-inner .card-image {
+        opacity: 1!important;;
     }
 }
 
