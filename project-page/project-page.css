@@ -90,7 +90,9 @@
 }
 
 
-/* ------------------------------------------- */
+/* ----------Menu1--------------------------------- */
+
+
 .buttons{
     margin: 2rem 0;
 }
@@ -11965,17 +11967,18 @@ a:focus,button:focus {
 
 @media (min-width: 1440px) {
     .page-intro.page-intro-projects {
-        padding-bottom:94px
+        padding-bottom:94px;
     }
 
     .page-intro.page-intro-projects .txt-lg {
-        margin-bottom: 250px
+        margin-bottom: 250px;
     }
 
     .page-intro.page-intro-projects .image {
-        right: 125px
+        right: 125px;
     }
 }
+
 
 .page-intro.page-intro-services .image {
     margin: -69px 0 -40px -44px
@@ -13660,172 +13663,12 @@ a:focus,button:focus {
     display: none
 }
 
-.block-projects .projects-filter .projects-filter-sort {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    margin: 0 0 20px
-}
-
-.block-projects .projects-filter .projects-filter-sort-dropdown {
-    position: relative
-}
-
-.block-projects .projects-filter .projects-filter-sort-dropdown .projects-filter-sort-dropdown-selected {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: 1px;
-    z-index: 2;
-    width: 119px;
-    height: 40px;
-    cursor: pointer
-}
-
-.block-projects .projects-filter .projects-filter-sort-dropdown .projects-filter-sort-dropdown-selected:before {
-    content: "";
-    position: absolute;
-    z-index: 0;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    padding: 1px;
-    background: #91999e;
-    -webkit-mask: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fff)) content-box,-webkit-gradient(linear,left top,left bottom,color-stop(0,#fff));
-    -webkit-mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
-    border-radius: 5px
-}
-
-.block-projects .projects-filter .projects-filter-sort-dropdown .projects-filter-sort-dropdown-selected:after {
-    content: "";
-    width: 12px;
-    height: 7px;
-    background: url(../../../themes/fulcrum/assets/img/bg/select.svg) no-repeat;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin: 0 17px 0 0
-}
-
-.block-projects .projects-filter .projects-filter-sort-dropdown .projects-filter-sort-dropdown-selected span {
-    display: block;
-    width: 100%;
-    padding: 0 0 0 10px;
-    font-size: 14px;
-    line-height: 1.2;
-    height: 1.2em;
-    overflow: hidden;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin: 0 0 2px
-}
-
-.block-projects .projects-filter .projects-filter-sort-dropdown .projects-filter-sort-dropdown-list {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    border: 1px solid #91999e;
-    border-radius: 5px;
-    background-color: #050505;
-    padding: 46px 5px 1px 10px
-}
-
-.block-projects .projects-filter .projects-filter-sort-dropdown .projects-filter-sort-dropdown-list label {
-    display: block;
-    cursor: pointer;
-    margin: 0 0 20px
-}
-
-.block-projects .projects-filter .projects-filter-sort-dropdown .projects-filter-sort-dropdown-list label span {
-    display: block;
-    position: relative;
-    padding: 0 0 0 26px;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: .01em;
-    color: #e9eef1
-}
-
-.block-projects .projects-filter .projects-filter-sort-dropdown .projects-filter-sort-dropdown-list label span:before {
-    content: "";
-    width: 16px;
-    position: absolute;
-    height: 16px;
-    left: 0;
-    top: 0;
-    border: 1px solid #e9eef1;
-    border-radius: 2px
-}
-
-.block-projects .projects-filter .projects-filter-sort-dropdown .projects-filter-sort-dropdown-list label input {
-    display: none
-}
-
-.block-projects .projects-filter .projects-filter-sort-dropdown .projects-filter-sort-dropdown-list label input:checked+span:before {
-    background: #0d99ff url(../../../themes/fulcrum/assets/img/bg/checkbox.svg) 50% no-repeat;
-    border-color: #0d99ff
-}
-
-.block-projects .projects-filter .projects-filter-sort-dropdown.opened .projects-filter-sort-dropdown-selected:before {
-    display: none
-}
-
-.block-projects .projects-filter .projects-filter-sort-dropdown.selected .projects-filter-sort-dropdown-selected:before {
-    background: -webkit-gradient(linear,left top,right top,from(#0d99ff),to(#99faf4));
-    background: -o-linear-gradient(left,#0d99ff 0%,#99faf4 100%);
-    background: linear-gradient(90deg,#0d99ff 0%,#99faf4 100%)
-}
-
-.block-projects .projects-filter .projects-filter-sort-dropdown.selected .projects-filter-sort-dropdown-selected:after {
-    background-image: url(../../../themes/fulcrum/assets/img/bg/select-active.svg)
-}
-
-.block-projects .projects-filter .projects-filter-sort-dropdown.selected .projects-filter-sort-dropdown-selected span {
-    background-color: #fff;
-    background-image: -webkit-gradient(linear,left top,right top,from(#0d99ff),to(#99faf4));
-    background-image: -o-linear-gradient(left,#0d99ff 0%,#99faf4 100%);
-    background-image: linear-gradient(90deg,#0d99ff 0%,#99faf4 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent
-}
 
 .block-projects .wrapper .col {
     margin: 0 0 10px
 }
 
 @media (min-width: 640px) {
-    .block-projects .projects-filter {
-        display:-webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        -webkit-box-align: start;
-        -ms-flex-align: start;
-        align-items: flex-start;
-        margin-bottom: 38px
-    }
 
     .block-projects .projects-filter .tab-nav {
         margin-bottom: 0
@@ -13845,7 +13688,7 @@ a:focus,button:focus {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         margin: 0 -10px
     }
 
@@ -13855,11 +13698,11 @@ a:focus,button:focus {
         margin: 0 0 20px
     }
 
-    .block-projects .wrapper .col:nth-child(2n) {
+    /* .block-projects .wrapper .col:nth-child(2n) {
         -webkit-transform: translateY(50px);
         -ms-transform: translateY(50px);
         transform: translateY(50px)
-    }
+    } */
 
     .block-projects .wrapper .col .card-type-02 {
         padding: 0;
@@ -13899,15 +13742,12 @@ a:focus,button:focus {
         margin-bottom: 8px
     }
 
-    .block-projects .wrapper .col {
-        margin: 0 0 69px
-    }
-
+/* 
     .block-projects .wrapper .col:nth-child(2n) {
         -webkit-transform: translateY(80px);
         -ms-transform: translateY(80px);
         transform: translateY(80px)
-    }
+    } */
 
     .block-projects .wrapper .col .card-type-02 {
         max-width: 555px;
@@ -25342,7 +25182,7 @@ a:focus,button:focus {
     }
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 1025px) {
     .block-service-description_lyosha p {
         max-width:300px
     }
