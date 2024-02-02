@@ -23,7 +23,9 @@ body{
     background-color: var(--background-primary-color);
     font-family: var(--primary-font);
 }
-
+html{
+    scroll-behavior: smooth;
+}
 #row{
     display: flex;
     flex-direction: row;
@@ -31,6 +33,34 @@ body{
     justify-content: center;
 }
 
+/* ------------------------------------------------- */
+.fixed-button{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 100;
+}
+.fixed-button button{
+    height: 3.4rem;
+    width: 3.4rem;
+    border-radius: 50%;
+    background-color: #18202D;
+    border: none;
+    margin: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .fixed-button button:hover{
+    transition: all ease-in-out .7s;
+    border: #129CFF 1px solid;
+} */
+.fixed-button button i{
+    color: #fff;
+}
 /* ------------------------------------------------- */
 
 

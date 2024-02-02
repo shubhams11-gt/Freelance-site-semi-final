@@ -16,8 +16,31 @@ html {
     background-color: #1F2929;
     border: 2px solid #4444;
 }
+/* ------------------------------------------------- */
+.fixed-button{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 100;
+}
+.fixed-button button{
+    height: 3.4rem;
+    width: 3.4rem;
+    border-radius: 50%;
+    background-color: #18202D;
+    border: none;
+    margin: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
 
-/* --------------------------------- */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fixed-button button i{
+    color: #fff;
+}
+/* ------------------------------------------------- */
 
 @import url(https://fonts.googleapis.com/css2?family=Inter&display=swap);@charset "UTF-8";.wp-block-archives {
     box-sizing: border-box

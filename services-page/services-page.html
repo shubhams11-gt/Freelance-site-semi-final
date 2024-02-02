@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Services - Kinatix</title>
     <link rel="stylesheet" href="services-css.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body
     data-test=""
@@ -356,7 +357,7 @@
                 target="_self"
               >
                 <span class="btn-wrap">
-                  <span class="btn-inner">
+                  <span class="btn-inner"   onclick="redirectToWhatsApp()">
                     Start a project <span class="btn-icon"></span>
                   </span>
                 </span>
@@ -370,6 +371,12 @@
         </div>
       </header>
       <!-- end header-->
+
+      <div class="fixed-button">
+        <button class="whatsapp-fixed-button"  onclick="redirectToWhatsApp()">
+          <i class='bx bxl-whatsapp'></i>
+        </button>
+      </div>
 
       <div class="page-content">
         <div class="page-intro page-intro-services">
@@ -412,7 +419,7 @@
                   target="_self"
                 >
                   <span class="btn-wrap">
-                    <span class="btn-inner">
+                    <span class="btn-inner" onclick="redirectToWhatsApp()">
                       Get a quote <span class="btn-icon"></span>
                     </span>
                   </span>
@@ -2154,15 +2161,17 @@
       class="widget-align-right"
       style="min-height: 96px; min-width: 100px; width: 276px; height: 190px"
     >
-      <div class="hs-shadow-container"></div>
-      <iframe
-        src="https://app.hubspot.com/conversations-visitor/6956063/threads/utk/f6ceb8be0109475b856ecf6ec3d8666b?uuid=e1c67151b48a479f9cf490457060ca01&amp;mobile=false&amp;mobileSafari=false&amp;hideWelcomeMessage=false&amp;hstc=22226724.23b783582a0dc59c2c925167c289d0d5.1698231755549.1704916102662.1704961120022.58&amp;domain=fulcrum.rocks&amp;inApp53=false&amp;messagesUtk=f6ceb8be0109475b856ecf6ec3d8666b&amp;url=https%3A%2F%2Ffulcrum.rocks%2Fservices%2F&amp;inline=false&amp;isFullscreen=false&amp;globalCookieOptOut=&amp;isFirstVisitorSession=false&amp;isAttachmentDisabled=false&amp;isInitialInputFocusDisabled=false&amp;enableWidgetCookieBanner=false&amp;isInCMS=false&amp;hubspotUtk=23b783582a0dc59c2c925167c289d0d5"
-        id="hubspot-conversations-iframe"
-        role="region"
-        aria-label="Chat Widget"
-        allowfullscreen=""
-        data-test-id="chat-widget-iframe"
-      ></iframe>
-    </div>
+    <script>
+      function redirectToWhatsApp() {
+                // Replace "00000000000" with your actual WhatsApp number
+                var whatsappNumber = "+917851822581";
+    
+                // Create the WhatsApp message link
+                var whatsappLink = "https://wa.me/" + whatsappNumber;
+    
+                // Open the link in a new tab or window
+                window.open(whatsappLink, "_blank");
+     }
+    </script>
   </body>
 </html>

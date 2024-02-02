@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="project-page.css">
     <link rel="stylesheet" href="../style-2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body data-test="" class="page-template page-template-templates page-template-projects page-template-templatesprojects-php page page-id-159" style="" data-new-gr-c-s-check-loaded="14.1148.0" data-gr-ext-installed="" cz-shortcut-listen="true">
@@ -161,7 +162,7 @@
     
                   </nav>
                   <div class="header-buttons">
-                                    <a class="button btn-medium" href="" target="_self">
+                                    <a class="button btn-medium" onclick="redirectToWhatsApp()" target="_self">
                         <span class="btn-wrap">
                           <span class="btn-inner">
                             Start a project                        <span class="btn-icon"></span>
@@ -174,6 +175,12 @@
             </div>
           </header>
           <!-- end header-->
+
+          <div class="fixed-button">
+            <button class="whatsapp-fixed-button" onclick="redirectToWhatsApp()">
+              <i class='bx bxl-whatsapp'></i>
+            </button>
+          </div>
     
     <div class="page-content">
             <div class="page-intro page-intro-projects">
@@ -196,7 +203,7 @@
                   <div class="text">
                     <p>No clients were harmed in the making of this… wait.
     Yeah, most of them actually benefited from the cooperation greatly.</p>
-                                        <a class="button" href="" target="_self">
+                                        <a class="button" href="" onclick="redirectToWhatsApp()" target="_self">
                             <span class="btn-wrap">
                                 <span class="btn-inner">
                                     Get a quote                                <span class="btn-icon"></span>
@@ -370,7 +377,7 @@
                         </form>
                       </div>
                     </div>
-                    <div class="text contact-button">
+                    <div class="text contact-button" onclick="redirectToWhatsApp()">
                       <p>The one-stop shop product studio for Engineering, Design and Business Analysis.</p>
                       <a class="button" href="">
                           <span class="btn-wrap">
@@ -720,6 +727,18 @@
             }
           }
         }
+      </script>
+      <script>
+        function redirectToWhatsApp() {
+                  // Replace "00000000000" with your actual WhatsApp number
+                  var whatsappNumber = "+917851822581";
+      
+                  // Create the WhatsApp message link
+                  var whatsappLink = "https://wa.me/" + whatsappNumber;
+      
+                  // Open the link in a new tab or window
+                  window.open(whatsappLink, "_blank");
+       }
       </script>
 </body>
 </html>
